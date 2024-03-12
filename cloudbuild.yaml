@@ -12,6 +12,6 @@ steps:
        - run
        - --filename=gke.yaml
        - --image=gcr.io/$PROJECT_ID/fnote-taking-gke-dev
-       - --location=us-central1-c
+       - --location=ap-south1
        - --cluster=cluster-1
        - --namespace=dev
